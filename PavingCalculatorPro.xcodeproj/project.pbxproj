@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF09FEB51E0851ED0020B1CB /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF09FEB41E0851ED0020B1CB /* MasonryViewController.m */; };
+		DF09FEB81E085A400020B1CB /* MainTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF09FEB71E085A400020B1CB /* MainTabBarView.m */; };
+		DF1D09A31E13A73E00252A16 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1D09A21E13A73E00252A16 /* libsqlite3.0.tbd */; };
+		DF3A7D861E06430C00C302F9 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A7D851E06430C00C302F9 /* CalculatorViewController.m */; };
+		DF469C8F1E13670F008314BF /* mydb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DF469C8E1E13670F008314BF /* mydb.sqlite */; };
+		DF469C931E1369DF008314BF /* how_to_do_project.htm in Resources */ = {isa = PBXBuildFile; fileRef = DF469C901E1369DF008314BF /* how_to_do_project.htm */; };
+		DF469C941E1369DF008314BF /* how_to_use_this_app.htm in Resources */ = {isa = PBXBuildFile; fileRef = DF469C911E1369DF008314BF /* how_to_use_this_app.htm */; };
+		DF469C951E1369DF008314BF /* tools_and_safety.htm in Resources */ = {isa = PBXBuildFile; fileRef = DF469C921E1369DF008314BF /* tools_and_safety.htm */; };
+		DF6293371E0A148F002F08DE /* FoldersMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6293361E0A148F002F08DE /* FoldersMainViewController.m */; };
+		DFF6B5CA1E06708800B6E345 /* CalculationData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5C71E06708800B6E345 /* CalculationData.m */; };
+		DFF6B5CB1E06708800B6E345 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5C91E06708800B6E345 /* Fraction.m */; };
+		DFF6B5D21E0678B000B6E345 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5D11E0678B000B6E345 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFF6B5D51E067EA900B6E345 /* CalculationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5D41E067EA900B6E345 /* CalculationListTableViewController.m */; };
+		DFF6B5D81E06801D00B6E345 /* QuotationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5D71E06801D00B6E345 /* QuotationListTableViewController.m */; };
+		DFF6B5DB1E06814F00B6E345 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5DA1E06814F00B6E345 /* DataTableViewCell.m */; };
+		DFF6B5DE1E06823A00B6E345 /* CalculationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5DD1E06823A00B6E345 /* CalculationViewController.m */; };
+		DFF6B5E11E06827D00B6E345 /* QuotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF6B5E01E06827D00B6E345 /* QuotationViewController.m */; };
+		DFF75F071E06EDFA00ECCDE8 /* MaterialLabourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF75F061E06EDFA00ECCDE8 /* MaterialLabourViewController.m */; };
+		DFF75F0A1E06F35F00ECCDE8 /* PlantEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF75F091E06F35F00ECCDE8 /* PlantEquipmentViewController.m */; };
+		DFF75F0D1E06FBF200ECCDE8 /* UserPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF75F0C1E06FBF200ECCDE8 /* UserPreferenceViewController.m */; };
+		DFFBB2711E14FF4A001A2775 /* SettingsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFBB2701E14FF4A001A2775 /* SettingsMainViewController.m */; };
+		DFFD25701E0528A9004A9B68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD256F1E0528A9004A9B68 /* main.m */; };
+		DFFD25731E0528A9004A9B68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD25721E0528A9004A9B68 /* AppDelegate.m */; };
+		DFFD25761E0528A9004A9B68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD25751E0528A9004A9B68 /* ViewController.m */; };
+		DFFD25791E0528A9004A9B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFD25771E0528A9004A9B68 /* Main.storyboard */; };
+		DFFD257B1E0528A9004A9B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFD257A1E0528A9004A9B68 /* Assets.xcassets */; };
+		DFFD257E1E0528A9004A9B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFD257C1E0528A9004A9B68 /* LaunchScreen.storyboard */; };
+		DFFD25A71E05307E004A9B68 /* GuidesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD25A41E05307E004A9B68 /* GuidesDetailViewController.m */; };
+		DFFD25A81E05307E004A9B68 /* GuidesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD25A61E05307E004A9B68 /* GuidesMainViewController.m */; };
+		DFFD25BA1E053961004A9B68 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD25B91E053961004A9B68 /* NoteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF09FEB31E0851ED0020B1CB /* MasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
+		DF09FEB41E0851ED0020B1CB /* MasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
+		DF09FEB61E085A400020B1CB /* MainTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarView.h; sourceTree = "<group>"; };
+		DF09FEB71E085A400020B1CB /* MainTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarView.m; sourceTree = "<group>"; };
+		DF1D09A21E13A73E00252A16 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DF3A7D841E06430C00C302F9 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		DF3A7D851E06430C00C302F9 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		DF469C8E1E13670F008314BF /* mydb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydb.sqlite; sourceTree = "<group>"; };
+		DF469C901E1369DF008314BF /* how_to_do_project.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = how_to_do_project.htm; sourceTree = "<group>"; };
+		DF469C911E1369DF008314BF /* how_to_use_this_app.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = how_to_use_this_app.htm; sourceTree = "<group>"; };
+		DF469C921E1369DF008314BF /* tools_and_safety.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tools_and_safety.htm; sourceTree = "<group>"; };
+		DF6293351E0A148F002F08DE /* FoldersMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldersMainViewController.h; sourceTree = "<group>"; };
+		DF6293361E0A148F002F08DE /* FoldersMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldersMainViewController.m; sourceTree = "<group>"; };
+		DFF6B5C61E06708800B6E345 /* CalculationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationData.h; sourceTree = "<group>"; };
+		DFF6B5C71E06708800B6E345 /* CalculationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationData.m; sourceTree = "<group>"; };
+		DFF6B5C81E06708800B6E345 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		DFF6B5C91E06708800B6E345 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		DFF6B5D01E0678B000B6E345 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		DFF6B5D11E0678B000B6E345 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		DFF6B5D31E067EA900B6E345 /* CalculationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationListTableViewController.h; sourceTree = "<group>"; };
+		DFF6B5D41E067EA900B6E345 /* CalculationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationListTableViewController.m; sourceTree = "<group>"; };
+		DFF6B5D61E06801D00B6E345 /* QuotationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotationListTableViewController.h; sourceTree = "<group>"; };
+		DFF6B5D71E06801D00B6E345 /* QuotationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotationListTableViewController.m; sourceTree = "<group>"; };
+		DFF6B5D91E06814F00B6E345 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		DFF6B5DA1E06814F00B6E345 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		DFF6B5DC1E06823A00B6E345 /* CalculationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationViewController.h; sourceTree = "<group>"; };
+		DFF6B5DD1E06823A00B6E345 /* CalculationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationViewController.m; sourceTree = "<group>"; };
+		DFF6B5DF1E06827D00B6E345 /* QuotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotationViewController.h; sourceTree = "<group>"; };
+		DFF6B5E01E06827D00B6E345 /* QuotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotationViewController.m; sourceTree = "<group>"; };
+		DFF75F051E06EDFA00ECCDE8 /* MaterialLabourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialLabourViewController.h; sourceTree = "<group>"; };
+		DFF75F061E06EDFA00ECCDE8 /* MaterialLabourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialLabourViewController.m; sourceTree = "<group>"; };
+		DFF75F081E06F35F00ECCDE8 /* PlantEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantEquipmentViewController.h; sourceTree = "<group>"; };
+		DFF75F091E06F35F00ECCDE8 /* PlantEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantEquipmentViewController.m; sourceTree = "<group>"; };
+		DFF75F0B1E06FBF200ECCDE8 /* UserPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferenceViewController.h; sourceTree = "<group>"; };
+		DFF75F0C1E06FBF200ECCDE8 /* UserPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferenceViewController.m; sourceTree = "<group>"; };
+		DFFBB26F1E14FF4A001A2775 /* SettingsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMainViewController.h; sourceTree = "<group>"; };
+		DFFBB2701E14FF4A001A2775 /* SettingsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMainViewController.m; sourceTree = "<group>"; };
+		DFFD256B1E0528A8004A9B68 /* PavingCalculatorPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PavingCalculatorPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFD256F1E0528A9004A9B68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFFD25711E0528A9004A9B68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFFD25721E0528A9004A9B68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFFD25741E0528A9004A9B68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFFD25751E0528A9004A9B68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFFD25781E0528A9004A9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFFD257A1E0528A9004A9B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFFD257D1E0528A9004A9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFFD257F1E0528A9004A9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFD25A31E05307E004A9B68 /* GuidesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidesDetailViewController.h; sourceTree = "<group>"; };
+		DFFD25A41E05307E004A9B68 /* GuidesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidesDetailViewController.m; sourceTree = "<group>"; };
+		DFFD25A51E05307E004A9B68 /* GuidesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidesMainViewController.h; sourceTree = "<group>"; };
+		DFFD25A61E05307E004A9B68 /* GuidesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidesMainViewController.m; sourceTree = "<group>"; };
+		DFFD25B81E053961004A9B68 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		DFFD25B91E053961004A9B68 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFD25681E0528A8004A9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1D09A31E13A73E00252A16 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF6B5C11E06703E00B6E345 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DFF6B5D01E0678B000B6E345 /* RegexKitLite.h */,
+				DFF6B5D11E0678B000B6E345 /* RegexKitLite.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		DFF6B5C51E06707600B6E345 /* datatype */ = {
+			isa = PBXGroup;
+			children = (
+				DFF6B5C61E06708800B6E345 /* CalculationData.h */,
+				DFF6B5C71E06708800B6E345 /* CalculationData.m */,
+				DFF6B5C81E06708800B6E345 /* Fraction.h */,
+				DFF6B5C91E06708800B6E345 /* Fraction.m */,
+			);
+			name = datatype;
+			sourceTree = "<group>";
+		};
+		DFF75F041E06EDDD00ECCDE8 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				DFF75F051E06EDFA00ECCDE8 /* MaterialLabourViewController.h */,
+				DFF75F061E06EDFA00ECCDE8 /* MaterialLabourViewController.m */,
+				DFF75F081E06F35F00ECCDE8 /* PlantEquipmentViewController.h */,
+				DFF75F091E06F35F00ECCDE8 /* PlantEquipmentViewController.m */,
+				DFF75F0B1E06FBF200ECCDE8 /* UserPreferenceViewController.h */,
+				DFF75F0C1E06FBF200ECCDE8 /* UserPreferenceViewController.m */,
+				DFFBB26F1E14FF4A001A2775 /* SettingsMainViewController.h */,
+				DFFBB2701E14FF4A001A2775 /* SettingsMainViewController.m */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		DFFD25621E0528A8004A9B68 = {
+			isa = PBXGroup;
+			children = (
+				DF1D09A21E13A73E00252A16 /* libsqlite3.0.tbd */,
+				DFFD256D1E0528A9004A9B68 /* PavingCalculatorPro */,
+				DFFD256C1E0528A8004A9B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFD256C1E0528A8004A9B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD256B1E0528A8004A9B68 /* PavingCalculatorPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFD256D1E0528A9004A9B68 /* PavingCalculatorPro */ = {
+			isa = PBXGroup;
+			children = (
+				DF469C901E1369DF008314BF /* how_to_do_project.htm */,
+				DF469C911E1369DF008314BF /* how_to_use_this_app.htm */,
+				DF469C921E1369DF008314BF /* tools_and_safety.htm */,
+				DF469C8E1E13670F008314BF /* mydb.sqlite */,
+				DFF75F041E06EDDD00ECCDE8 /* settings */,
+				DFF6B5C51E06707600B6E345 /* datatype */,
+				DFF6B5C11E06703E00B6E345 /* utils */,
+				DFFD25B71E053952004A9B68 /* folders */,
+				DFFD25A21E053060004A9B68 /* home */,
+				DFFD25A11E053056004A9B68 /* guides */,
+				DFFD25711E0528A9004A9B68 /* AppDelegate.h */,
+				DFFD25721E0528A9004A9B68 /* AppDelegate.m */,
+				DFFD25741E0528A9004A9B68 /* ViewController.h */,
+				DFFD25751E0528A9004A9B68 /* ViewController.m */,
+				DFFD25771E0528A9004A9B68 /* Main.storyboard */,
+				DFFD257A1E0528A9004A9B68 /* Assets.xcassets */,
+				DFFD257C1E0528A9004A9B68 /* LaunchScreen.storyboard */,
+				DFFD257F1E0528A9004A9B68 /* Info.plist */,
+				DFFD256E1E0528A9004A9B68 /* Supporting Files */,
+				DF09FEB61E085A400020B1CB /* MainTabBarView.h */,
+				DF09FEB71E085A400020B1CB /* MainTabBarView.m */,
+			);
+			path = PavingCalculatorPro;
+			sourceTree = "<group>";
+		};
+		DFFD256E1E0528A9004A9B68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD256F1E0528A9004A9B68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFD25A11E053056004A9B68 /* guides */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD25A31E05307E004A9B68 /* GuidesDetailViewController.h */,
+				DFFD25A41E05307E004A9B68 /* GuidesDetailViewController.m */,
+				DFFD25A51E05307E004A9B68 /* GuidesMainViewController.h */,
+				DFFD25A61E05307E004A9B68 /* GuidesMainViewController.m */,
+			);
+			name = guides;
+			sourceTree = "<group>";
+		};
+		DFFD25A21E053060004A9B68 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A7D841E06430C00C302F9 /* CalculatorViewController.h */,
+				DF3A7D851E06430C00C302F9 /* CalculatorViewController.m */,
+				DF09FEB31E0851ED0020B1CB /* MasonryViewController.h */,
+				DF09FEB41E0851ED0020B1CB /* MasonryViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		DFFD25B71E053952004A9B68 /* folders */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD25B81E053961004A9B68 /* NoteViewController.h */,
+				DFFD25B91E053961004A9B68 /* NoteViewController.m */,
+				DFF6B5D31E067EA900B6E345 /* CalculationListTableViewController.h */,
+				DFF6B5D41E067EA900B6E345 /* CalculationListTableViewController.m */,
+				DFF6B5D61E06801D00B6E345 /* QuotationListTableViewController.h */,
+				DFF6B5D71E06801D00B6E345 /* QuotationListTableViewController.m */,
+				DFF6B5D91E06814F00B6E345 /* DataTableViewCell.h */,
+				DFF6B5DA1E06814F00B6E345 /* DataTableViewCell.m */,
+				DFF6B5DC1E06823A00B6E345 /* CalculationViewController.h */,
+				DFF6B5DD1E06823A00B6E345 /* CalculationViewController.m */,
+				DFF6B5DF1E06827D00B6E345 /* QuotationViewController.h */,
+				DFF6B5E01E06827D00B6E345 /* QuotationViewController.m */,
+				DF6293351E0A148F002F08DE /* FoldersMainViewController.h */,
+				DF6293361E0A148F002F08DE /* FoldersMainViewController.m */,
+			);
+			name = folders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFD256A1E0528A8004A9B68 /* PavingCalculatorPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFD25981E0528A9004A9B68 /* Build configuration list for PBXNativeTarget "PavingCalculatorPro" */;
+			buildPhases = (
+				DFFD25671E0528A8004A9B68 /* Sources */,
+				DFFD25681E0528A8004A9B68 /* Frameworks */,
+				DFFD25691E0528A8004A9B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PavingCalculatorPro;
+			productName = DeckingCalculatorPro;
+			productReference = DFFD256B1E0528A8004A9B68 /* PavingCalculatorPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFD25631E0528A8004A9B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lichuncheng;
+				TargetAttributes = {
+					DFFD256A1E0528A8004A9B68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8RL88EC6TM;
+					};
+				};
+			};
+			buildConfigurationList = DFFD25661E0528A8004A9B68 /* Build configuration list for PBXProject "PavingCalculatorPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFD25621E0528A8004A9B68;
+			productRefGroup = DFFD256C1E0528A8004A9B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFD256A1E0528A8004A9B68 /* PavingCalculatorPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFD25691E0528A8004A9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFD257E1E0528A9004A9B68 /* LaunchScreen.storyboard in Resources */,
+				DF469C941E1369DF008314BF /* how_to_use_this_app.htm in Resources */,
+				DFFD257B1E0528A9004A9B68 /* Assets.xcassets in Resources */,
+				DFFD25791E0528A9004A9B68 /* Main.storyboard in Resources */,
+				DF469C951E1369DF008314BF /* tools_and_safety.htm in Resources */,
+				DF469C931E1369DF008314BF /* how_to_do_project.htm in Resources */,
+				DF469C8F1E13670F008314BF /* mydb.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFD25671E0528A8004A9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6293371E0A148F002F08DE /* FoldersMainViewController.m in Sources */,
+				DFF75F0A1E06F35F00ECCDE8 /* PlantEquipmentViewController.m in Sources */,
+				DFF6B5DB1E06814F00B6E345 /* DataTableViewCell.m in Sources */,
+				DFFD25761E0528A9004A9B68 /* ViewController.m in Sources */,
+				DFFD25731E0528A9004A9B68 /* AppDelegate.m in Sources */,
+				DFF6B5D51E067EA900B6E345 /* CalculationListTableViewController.m in Sources */,
+				DFFBB2711E14FF4A001A2775 /* SettingsMainViewController.m in Sources */,
+				DFFD25A81E05307E004A9B68 /* GuidesMainViewController.m in Sources */,
+				DF09FEB51E0851ED0020B1CB /* MasonryViewController.m in Sources */,
+				DFF6B5E11E06827D00B6E345 /* QuotationViewController.m in Sources */,
+				DFF6B5D81E06801D00B6E345 /* QuotationListTableViewController.m in Sources */,
+				DFF75F0D1E06FBF200ECCDE8 /* UserPreferenceViewController.m in Sources */,
+				DFF6B5DE1E06823A00B6E345 /* CalculationViewController.m in Sources */,
+				DFF6B5CA1E06708800B6E345 /* CalculationData.m in Sources */,
+				DFFD25A71E05307E004A9B68 /* GuidesDetailViewController.m in Sources */,
+				DFFD25BA1E053961004A9B68 /* NoteViewController.m in Sources */,
+				DFFD25701E0528A9004A9B68 /* main.m in Sources */,
+				DFF75F071E06EDFA00ECCDE8 /* MaterialLabourViewController.m in Sources */,
+				DF3A7D861E06430C00C302F9 /* CalculatorViewController.m in Sources */,
+				DFF6B5D21E0678B000B6E345 /* RegexKitLite.m in Sources */,
+				DFF6B5CB1E06708800B6E345 /* Fraction.m in Sources */,
+				DF09FEB81E085A400020B1CB /* MainTabBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFFD25771E0528A9004A9B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFD25781E0528A9004A9B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFFD257C1E0528A9004A9B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFD257D1E0528A9004A9B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFD25961E0528A9004A9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFFD25971E0528A9004A9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFFD25991E0528A9004A9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PavingCalculatorPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps4builders.pavingcalculator;
+				PRODUCT_NAME = PavingCalculatorPro;
+			};
+			name = Debug;
+		};
+		DFFD259A1E0528A9004A9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PavingCalculatorPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps4builders.pavingcalculator;
+				PRODUCT_NAME = PavingCalculatorPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFD25661E0528A8004A9B68 /* Build configuration list for PBXProject "PavingCalculatorPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFD25961E0528A9004A9B68 /* Debug */,
+				DFFD25971E0528A9004A9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFD25981E0528A9004A9B68 /* Build configuration list for PBXNativeTarget "PavingCalculatorPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFD25991E0528A9004A9B68 /* Debug */,
+				DFFD259A1E0528A9004A9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFD25631E0528A8004A9B68 /* Project object */;
+}
